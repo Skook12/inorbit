@@ -20,17 +20,17 @@ now in a terminal run 'npm run dev' in the folder 'server' and in another termin
 
 ## 🛠️ Build with
  #Backend
- - [ ] Typescript
- - [ ] Drizzle-Orm
- - [ ] Postgres
- - [ ] Fastify
- - [ ] Docker
- - [ ] Zod
+ - [X] Typescript
+ - [X] Drizzle-Orm
+ - [X] Postgres
+ - [X] Fastify
+ - [X] Docker
+ - [X] Zod
 
  #Frontend
- - [ ] React
- - [ ] Typescript
- - [ ] Tailwind
- - [ ] Radix
- - [ ] Vite
+ - [X] React
+ - [X] Typescript
+ - [X] Tailwind
+ - [X] Radix
+ - [X] Vite
 
