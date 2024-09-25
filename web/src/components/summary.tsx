@@ -4,7 +4,6 @@ import { DialogTrigger } from "./ui/dialog";
 import { Icon } from "./in-orbit-icon";
 import { Progress, ProgressIndicator } from "./ui/progress-bar";
 import { Separator } from "./ui/separator";
-import { OutlineButton } from "./ui/outline-button";
 import { useQuery } from "@tanstack/react-query";
 import { getSummary } from "../http/get-summary";
 import ptBR from "dayjs/locale/pt-BR";
@@ -73,7 +72,7 @@ export function Summary() {
           </p>
         )}
 
-        {Object.entries(data.goalsPerDay).map(([date, goals]) => {
+        {Object.entries(data.goalsPerDay ?? {}).map(([date, goals]) => {
           const weekDay = dayjs(date).format("dddd");
           const formattedDate = dayjs(date).format("D [de] MMMM");
           return (
