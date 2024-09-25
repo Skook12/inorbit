@@ -19,7 +19,7 @@ now in a terminal run 'npm run dev' in the folder 'server' and in another termin
 ```
 
 ## 🛠️ Build with
-   Backend
+ #Backend
  - [ ] Typescript
  - [ ] Drizzle-Orm
  - [ ] Postgres
@@ -27,7 +27,7 @@ now in a terminal run 'npm run dev' in the folder 'server' and in another termin
  - [ ] Docker
  - [ ] Zod
 
-   Frontend
+ #Frontend
  - [ ] React
  - [ ] Typescript
  - [ ] Tailwind
